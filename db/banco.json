@@ -1,0 +1,23 @@
+{
+    "tipoitens": [
+        {"id": 1, "nome": "Game"},
+        {"id": 2, "nome": "Anime"},
+        {"id": 1, "nome": "Séries"}
+    ],
+    "itens": [
+        {"id": 1, "nome": "Super Mario Word" , "idcategoria": 1, "valor": 10.54, "imagem": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_SuperMarioWorld_image1280w.jpg"},
+        {"id": 2, "nome": "Fortnite" , "idcategoria": 1, "valor": 22.43, "imagem": "https://files.tecnoblog.net/wp-content/uploads/2021/03/como-mudar-de-skin-no-fortnite-001.jpg"},
+        {"id": 3, "nome": "Roblox" , "idcategoria": 1, "valor": 78.86, "imagem": "https://t.ctcdn.com.br/SlpfhAXXAd-NGnufpTrKozPoabg=/1200x675/smart/i609512.jpeg"},
+        {"id": 4, "nome": "Duke Nukem" , "idcategoria": 1, "valor": 5.99, "imagem": "https://meups.com.br/wp-content/uploads/2022/06/duke-nukem.jpg"},
+        {"id": 5, "nome": "Naruto" , "idcategoria": 2, "valor": 6.99, "imagem": "https://m.media-amazon.com/images/I/91RpwagB7uL._AC_UF1000,1000_QL80_.jpg"},
+        {"id": 6, "nome": "One Piece" , "idcategoria": 2, "valor": 10.99, "imagem": "https://m.media-amazon.com/images/I/91ZJ8D9pmkL._AC_UF1000,1000_QL80_.jpg"},
+        {"id": 7, "nome": "Avatar" , "idcategoria": 2, "valor": 4.99, "imagem": "https://mundoavatar.com.br/wp-content/uploads/2021/07/avatar-filme.jpeg"},
+        {"id": 8, "nome": "Cavalheiros do Zodiaco" , "idcategoria": 2, "valor": 99.99, "imagem": "https://uploads.folhabv.com.br/2023/10/21181135053559.webp"},
+        {"id": 9, "nome": "Stranger things" , "idcategoria": 3, "valor": 15.00, "imagem": "https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/11/veja-revelacao-bomastica-da-5a-temporada-de-stranger-things-reproducao-netflix.jpg"},
+        {"id": 10, "nome": "The Big Bang Theory" , "idcategoria": 3, "valor": 25.00, "imagem": "https://m.media-amazon.com/images/I/81ksNXITStL._AC_UF894,1000_QL80_DpWeblab_.jpg"},
+        {"id": 11, "nome": "Doctor Who" , "idcategoria": 3, "valor": 21.00, "imagem": "https://images.ctfassets.net/s5n2t79q9icq/5uqzoaHDMPNevXnRGlkEo8/a029d39e88118c94c0cde1a252269372/KcPo530Nm_11600x1080.jpg?q=70"},
+        {"id": 12, "nome": "Silicon Valley" , "idcategoria": 3, "valor": 21.00, "imagem": "https://static.wikia.nocookie.net/dublagem/images/0/0c/SiliconValley.jpg/revision/latest?cb=20240202170053&path-prefix=pt-br"},
+        {"id": 13, "nome": "Flash" , "idcategoria": 3, "valor": 11.60, "imagem": "https://cinema10.com.br/upload/featuredImage.php?url=https%3A%2F%2Fcinema10.com.br%2Fupload%2Fseries%2Fseries_383_MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM%40._V1_SY1000_SX800_AL_.jpg"}
+
+    ]
+}
