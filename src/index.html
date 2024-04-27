@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Alura Geek</title>
+    <script src="./js/conexao.js" ></script>
+    <script src="./js/modelos/tipoitem.js" ></script>
+    <script src="./js/modelos/item.js" ></script>
+    <script src="./js/tipoitem.js" ></script>
+    <script src="./js/itens.js" ></script>
+</head>
+<body>
+    <header>
+        <h1>Alura Geek</h1>
+    </header>
+    <main>
+       <section id="produtos">
+             <h2>Meus produtos</h2>
+            <div class="card" id="card">
+
+            </div>
+       </section>
+       <section id="formulario">
+            <forms>
+                <h3>Adicionar um produto</h3> 
+                <fieldset>                    
+                    <input type="text" class="form-control" nome="nome" placeholder="Nome do produto">
+                    <input type="number" class="form-control" nome="valor" placeholder="Preço do produto">
+                    <input type="url" class="form-control" nome="imagem" placeholder="URL da imagem">
+                    <select name="categoria" id="categoria" class="form-control" >
+                        <option value="-1">Selecione uma categoria</option>
+                    </select>
+                </fieldset>
+            </form>
+       </section>
+    </main>
+    <footer>
+        <span>
+            Desenvolvido por Hanna  Mattos @2024 - <small>A gostosona de Realengo e adjacencias </small>
+        </span> 
+    </footer>
+</body>
+</html>

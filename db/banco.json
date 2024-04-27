@@ -2,7 +2,7 @@
     "tipoitens": [
         {"id": 1, "nome": "Game"},
         {"id": 2, "nome": "Anime"},
-        {"id": 1, "nome": "Séries"}
+        {"id": 3, "nome": "Séries"}
     ],
     "itens": [
         {"id": 1, "nome": "Super Mario Word" , "idcategoria": 1, "valor": 10.54, "imagem": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_SuperMarioWorld_image1280w.jpg"},
