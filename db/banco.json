@@ -1,23 +1,137 @@
 {
-    "tipoitens": [
-        {"id": 1, "nome": "Game"},
-        {"id": 2, "nome": "Anime"},
-        {"id": 3, "nome": "Séries"}
-    ],
-    "itens": [
-        {"id": 1, "nome": "Super Mario Word" , "idcategoria": 1, "valor": 10.54, "imagem": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_SuperMarioWorld_image1280w.jpg"},
-        {"id": 2, "nome": "Fortnite" , "idcategoria": 1, "valor": 22.43, "imagem": "https://files.tecnoblog.net/wp-content/uploads/2021/03/como-mudar-de-skin-no-fortnite-001.jpg"},
-        {"id": 3, "nome": "Roblox" , "idcategoria": 1, "valor": 78.86, "imagem": "https://t.ctcdn.com.br/SlpfhAXXAd-NGnufpTrKozPoabg=/1200x675/smart/i609512.jpeg"},
-        {"id": 4, "nome": "Duke Nukem" , "idcategoria": 1, "valor": 5.99, "imagem": "https://meups.com.br/wp-content/uploads/2022/06/duke-nukem.jpg"},
-        {"id": 5, "nome": "Naruto" , "idcategoria": 2, "valor": 6.99, "imagem": "https://m.media-amazon.com/images/I/91RpwagB7uL._AC_UF1000,1000_QL80_.jpg"},
-        {"id": 6, "nome": "One Piece" , "idcategoria": 2, "valor": 10.99, "imagem": "https://m.media-amazon.com/images/I/91ZJ8D9pmkL._AC_UF1000,1000_QL80_.jpg"},
-        {"id": 7, "nome": "Avatar" , "idcategoria": 2, "valor": 4.99, "imagem": "https://mundoavatar.com.br/wp-content/uploads/2021/07/avatar-filme.jpeg"},
-        {"id": 8, "nome": "Cavalheiros do Zodiaco" , "idcategoria": 2, "valor": 99.99, "imagem": "https://uploads.folhabv.com.br/2023/10/21181135053559.webp"},
-        {"id": 9, "nome": "Stranger things" , "idcategoria": 3, "valor": 15.00, "imagem": "https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/11/veja-revelacao-bomastica-da-5a-temporada-de-stranger-things-reproducao-netflix.jpg"},
-        {"id": 10, "nome": "The Big Bang Theory" , "idcategoria": 3, "valor": 25.00, "imagem": "https://m.media-amazon.com/images/I/81ksNXITStL._AC_UF894,1000_QL80_DpWeblab_.jpg"},
-        {"id": 11, "nome": "Doctor Who" , "idcategoria": 3, "valor": 21.00, "imagem": "https://images.ctfassets.net/s5n2t79q9icq/5uqzoaHDMPNevXnRGlkEo8/a029d39e88118c94c0cde1a252269372/KcPo530Nm_11600x1080.jpg?q=70"},
-        {"id": 12, "nome": "Silicon Valley" , "idcategoria": 3, "valor": 21.00, "imagem": "https://static.wikia.nocookie.net/dublagem/images/0/0c/SiliconValley.jpg/revision/latest?cb=20240202170053&path-prefix=pt-br"},
-        {"id": 13, "nome": "Flash" , "idcategoria": 3, "valor": 11.60, "imagem": "https://cinema10.com.br/upload/featuredImage.php?url=https%3A%2F%2Fcinema10.com.br%2Fupload%2Fseries%2Fseries_383_MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM%40._V1_SY1000_SX800_AL_.jpg"}
-
-    ]
+  "tipoitens": [
+    {
+      "id": "1",
+      "nome": "Games"
+    },
+    {
+      "id": "2",
+      "nome": "Animes"
+    },
+    {
+      "id": "3",
+      "nome": "Séries"
+    }
+  ],
+  "itens": [
+    {
+      "id": "1",
+      "nome": "Super Mario Word",
+      "idcategoria": 1,
+      "valor": 10.54,
+      "imagem": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_SuperMarioWorld_image1280w.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Fortnite",
+      "idcategoria": 1,
+      "valor": 22.43,
+      "imagem": "https://files.tecnoblog.net/wp-content/uploads/2021/03/como-mudar-de-skin-no-fortnite-001.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Roblox",
+      "idcategoria": 1,
+      "valor": 78.86,
+      "imagem": "https://t.ctcdn.com.br/SlpfhAXXAd-NGnufpTrKozPoabg=/1200x675/smart/i609512.jpeg"
+    },
+    {
+      "id": "4",
+      "nome": "Duke Nukem",
+      "idcategoria": 1,
+      "valor": 5.99,
+      "imagem": "https://meups.com.br/wp-content/uploads/2022/06/duke-nukem.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "Naruto",
+      "idcategoria": 2,
+      "valor": 6.99,
+      "imagem": "https://m.media-amazon.com/images/I/91RpwagB7uL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "One Piece",
+      "idcategoria": 2,
+      "valor": 10.99,
+      "imagem": "https://m.media-amazon.com/images/I/91ZJ8D9pmkL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "Avatar",
+      "idcategoria": 2,
+      "valor": 4.99,
+      "imagem": "https://mundoavatar.com.br/wp-content/uploads/2021/07/avatar-filme.jpeg"
+    },
+    {
+      "nome": "Cavalheiros do Zodiaco",
+      "idcategoria": "2",
+      "valor": "99.99",
+      "imagem": "https://uploads.folhabv.com.br/2023/10/21181135053559.webp",
+      "id": "8"
+    },
+    {
+      "id": "9",
+      "nome": "Stranger things",
+      "idcategoria": 3,
+      "valor": 15,
+      "imagem": "https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/11/veja-revelacao-bomastica-da-5a-temporada-de-stranger-things-reproducao-netflix.jpg"
+    },
+    {
+      "id": "10",
+      "nome": "The Big Bang Theory",
+      "idcategoria": 3,
+      "valor": 25,
+      "imagem": "https://m.media-amazon.com/images/I/81ksNXITStL._AC_UF894,1000_QL80_DpWeblab_.jpg"
+    },
+    {
+      "id": "11",
+      "nome": "Doctor Who",
+      "idcategoria": 3,
+      "valor": 21,
+      "imagem": "https://images.ctfassets.net/s5n2t79q9icq/5uqzoaHDMPNevXnRGlkEo8/a029d39e88118c94c0cde1a252269372/KcPo530Nm_11600x1080.jpg?q=70"
+    },
+    {
+      "id": "13",
+      "nome": "Flash",
+      "idcategoria": 3,
+      "valor": 11.6,
+      "imagem": "https://cinema10.com.br/upload/featuredImage.php?url=https%3A%2F%2Fcinema10.com.br%2Fupload%2Fseries%2Fseries_383_MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM%40._V1_SY1000_SX800_AL_.jpg"
+    },
+    {
+      "id": "5b71",
+      "nome": "DOOM",
+      "idcategoria": "1",
+      "valor": "34",
+      "imagem": "https://cdn1.epicgames.com/offer/149849cfbf324cc2a3d42fc4e5c19f91/EGS_DOOM1993_idSoftwareNerveSoftware_S1_2560x1440-8ed1ba59ae7bc26ccbafca2e7d05792b"
+    },
+    {
+      "id": "7b2e",
+      "nome": "GTA",
+      "idcategoria": "1",
+      "valor": "43",
+      "imagem": "https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_2560x1440_Landscaped%20Store-2560x1440-79155f950f32c9790073feaccae570fb.jpg"
+    },
+    {
+      "id": "1cfc",
+      "nome": "Lost",
+      "idcategoria": "3",
+      "valor": "1.99",
+      "imagem": "https://cinebuzz.uol.com.br/media/uploads/lost-novo-documentario-vai-abordar-o-final-polemico-da-serie.jpg"
+    },
+    {
+      "id": "8b14",
+      "nome": "Yu Yu Hakusho",
+      "idcategoria": "2",
+      "valor": "32.87",
+      "imagem": "https://static.wixstatic.com/media/d1d730_124ee170251844349c1734c1cf755e3a~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d1d730_124ee170251844349c1734c1cf755e3a~mv2.jpg"
+    },
+    {
+      "nome": "Silicon Valley",
+      "idcategoria": "3",
+      "valor": "32.66",
+      "imagem": "https://cinepop.com.br/wp-content/uploads/2017/02/siliconvalley.jpg",
+      "id": "3ee1"
+    }
+  ]
 }
