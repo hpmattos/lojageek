@@ -5,12 +5,32 @@ function addItemCard(produto){
 }
 
 
+function podeExibirProduto(item){
+    const nomeProduto = document.getElementById('pesquisaproduto').value;
+    const categoria = document.getElementById('filtro_categoria').value;
+    if (nomeProduto == "" && categoria == -1) return true;
+
+    let pode = true;
+    if (categoria != -1 && categoria != item.idcategoria){
+        pode = false;
+    }
+
+    if (nomeProduto != ""  && pode  ){
+        pode =  item.nome.toUpperCase().indexOf(nomeProduto.toUpperCase()) >= 0;
+    }
+    return pode;
+
+}
 
 async function getItens(){  
+   
     conexao.get("itens?_sort=idcategoria").then(resposta => {
         resposta.map(item => {
-            const produto = new Item(item.id, item.nome, item.idcategoria, item.valor, item.imagem);
-            addItemCard(produto)
+            if ( podeExibirProduto( item )   ){
+                    const produto = new Item(item.id, item.nome, item.idcategoria, item.valor, item.imagem);
+                    addItemCard(produto)
+                }
+           
         })
     })
 }
@@ -116,6 +136,7 @@ async function apagaProduto(e){
     alert("Produto removido");
 }
 
+
 getItens();
 
 document.getElementById("gravar").onclick = gravar;
@@ -132,3 +153,13 @@ document.addEventListener("click",function(event){
         
     }
 })
+
+document.getElementById('pesquisaproduto').onchange = (event) =>{
+    document.getElementById('card').innerHTML = '';
+    getItens();
+} 
+
+document.getElementById('filtro_categoria').onchange = (event) =>{
+    document.getElementById('card').innerHTML = '';
+    getItens();
+} 

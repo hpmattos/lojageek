@@ -14,8 +14,18 @@
     <main>
        <section id="produtos">
              <h2>Meus produtos</h2>
+             <div class="bloco_pesquisa">
+                <div class="sz-70">
+                    <input type="text" class="form-control" id="pesquisaproduto" placeholder="Pesquisa de produtos">
+                </div>
+                <div class="sz-20">
+                    <select name="categoria" id="filtro_categoria" class="categoria form-control" >
+                        <option value="-1">Filtro por categoria</option>
+                    </select>
+                </div>
+             </div>
             <div class="card" id="card">
-
+                
             </div>
        </section>
        <section id="formulario">
@@ -26,7 +36,7 @@
                     <input type="text" class="form-control" name="nome" placeholder="Nome do produto">
                     <input type="number" class="form-control" name="valor" placeholder="Preço do produto">
                     <input type="url" class="form-control" name="imagem" placeholder="URL da imagem">
-                    <select name="categoria" id="categoria" class="form-control" >
+                    <select name="categoria" id="categoria" class="categoria form-control" >
                         <option value="-1">Selecione uma categoria</option>
                     </select>
                     <button type="submit" class="btn btn-gravar" id="gravar">Gravar</button>

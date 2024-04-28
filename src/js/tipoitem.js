@@ -7,7 +7,9 @@ function getTipoItem(){
             const tipoItem = new TipoItem(tipo);
             categorias.push(tipoItem);
 
-            document.getElementById("categoria").appendChild(tipoItem.render() );
+            for(let obj of document.getElementsByClassName("categoria")){
+                obj.appendChild(tipoItem.render() );
+            }
         })
     })
 }
